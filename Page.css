@@ -1,0 +1,156 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing:border-box;
+
+}
+html{
+    font-size:20px;
+}
+.navbar{
+
+background-color:#1AC073;
+    display:grid;
+    grid-template-rows:65px; 
+  /* grid-template-columns:25vw 35vw 25vw;     */
+    /* border:2px solid; */
+}
+
+.header{
+    color:#FFFFFF;
+    background-color:#1AC073;
+    display:grid;
+   
+    grid-template-columns:60vw 38vw;
+
+}
+.content{
+    border:0px;
+    /* grid-row-start:; */
+ font-family: "Roboto";
+    
+   font-size:1.3rem;
+    /* padding:10%; */
+    /* border:2px solid black; */
+    
+
+
+}
+.boy{
+    /* grid-row-start:2; */
+/* border:2px solid; */
+position:relative;
+display:grid;
+
+
+align-items: center;
+
+}
+.para{
+  /* position:relative;
+   right:85%;
+ bottom:90%; 
+ top:10%;
+ left:15%; 
+ 
+ */
+ padding-top:25%;
+ padding-left:15%;
+
+}
+.pic{
+   
+    /* border:5px solid red; */
+   width:90%;
+ height:32em;
+  padding-top:30%;
+
+    
+}
+
+ ul{
+    display:flex;
+    list-style-type: none;
+ justify-content: space-evenly;
+}
+
+ul li a{
+    color:white;
+text-decoration:none;
+position:relative;
+top:19%;
+/* border:2px solid red; */
+/* margin:5px; */
+/* padding: 0px 5px; */
+/* justify-content: space-between; */
+}
+
+.jtgeats{
+    font-family:"squad-one";
+    font-size: 1.7rem;
+  color:white;
+ position:relative;
+ top:10%;
+ left:2%;
+
+  
+  }
+  .srchlck{
+
+    /* border:2px solid; */
+    position:relative;
+ top:16%;
+padding:0% 15%;
+ 
+
+  }
+ .sl{
+      display:flex;
+    
+
+ }
+.searchbox{
+  position:relative;
+  top:5%;
+  left:15%;
+ padding:15px 110px;
+ border-bottom-left-radius: 5px;
+ border-top-left-radius: 5px;
+}
+.sbox{ position:relative;
+  top:5%;
+  left:15%;
+  border-bottom-right-radius: 5px;
+ border-top-right-radius: 5px;
+ background-color:#F3BA00;
+ padding:5px 30px 13px;
+}
+
+  
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:1000){
+
+.pic {
+
+   justify-items:center;
+   align-items:center;
+   width:200px;
+   height:200px;
+
+    
+   
+}
+.para{
+    padding-top:10%;
+    padding-left:10%;
+}
+
+}

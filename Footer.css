@@ -1,0 +1,64 @@
+#info{
+    display: flex;
+  
+  }
+  
+  .name{
+    padding: 10px 0px ;
+  }
+  footer{
+    background-color: rgb(197, 197, 197);
+    padding: 100px;
+  }
+  .bose{
+    height: 40px;
+    width: 300px;
+    border: 0px;
+    border-radius: 10px;
+    padding: 10px;
+  }
+  
+  .email{
+   
+    padding: 10px 10px ;
+    margin-left:0px;
+  
+  }
+  .message{
+    padding: 10px 0px 0px 0px ;
+  }
+  .message input{
+    height: 150px;
+  
+    width: 610px;
+    border:0px;
+    border-radius: 10px;
+    padding: 10px;
+    text-align: start;
+  }
+  .submit{
+    border-radius:5px;
+    border:0px;
+    background-color:#1AC073;
+    color:white;
+    margin-top: 10px;
+    padding: 20px 50px;
+  }
+  h3{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: larger;
+  }
+  
+ #bottomimg{
+    /* position: absolute;
+    top: 2240px;
+    left: 800px; */
+ position:absolute;
+ top:2600px;
+ left:760px;
+
+
+  }
+  
+  
+  
